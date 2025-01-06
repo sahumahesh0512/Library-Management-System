@@ -90,17 +90,17 @@ Library-Management-System/
 ### **2. Setting Up the Project**
 1. Clone or download the repository.
    ```bash
-   git clone https://github.com/your-repo/LibraryManagement.git
+   git clone https://github.com/sahumahesh0512/Library-Management-System.git
    cd Library-Management-System
    ```
-2. Navigate to the `src` directory and ensure all Java files are in the `library` package.
+2. Navigate to the `library` directory and ensure all Java files are in the `library` package.
 
 ---
 
 ### **3. Compile the Project**
 Run the following command to compile all Java files:
 ```bash
-javac -d . src/library/*.java
+javac -d . library/*.java
 ```
 - The `-d` flag creates the package structure (`library`).
 
