@@ -14,10 +14,9 @@ The project also showcases the use of **interfaces** and **composition** in Java
 ## **Directory Structure**
 
 ```
-LibraryManagement/
+Library-Management-System/
 │
-├── src/
-│   └── library/
+├── library/
 │       ├── User.java                // Abstract base class for User
 │       ├── Admin.java               // Admin class extending User
 │       ├── Member.java              // Member class extending User and implementing LibraryOperations
@@ -92,7 +91,7 @@ LibraryManagement/
 1. Clone or download the repository.
    ```bash
    git clone https://github.com/your-repo/LibraryManagement.git
-   cd LibraryManagement
+   cd Library-Management-System
    ```
 2. Navigate to the `src` directory and ensure all Java files are in the `library` package.
 
